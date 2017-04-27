@@ -1,0 +1,30 @@
+{
+  "ids": {
+    "Message": 4,
+    "Room": 2,
+    "chatUser": 5,
+    "chatUserRoom": 1,
+    "AccessToken": 3
+  },
+  "models": {
+    "Message": {
+      "1": "{\"content\":\"hello Ram by emtec1\",\"posted_on\":\"2017-04-25T07:38:44.050Z\",\"roomId\":1,\"id\":1}",
+      "2": "{\"content\":\"hello Emtec by Ram\",\"posted_on\":\"2017-04-25T07:40:52.280Z\",\"roomId\":1,\"id\":2}",
+      "3": "{\"content\":\"hello Rakesh by emtec1\",\"posted_on\":\"2017-04-25T07:38:44.050Z\",\"roomId\":1,\"id\":3}"
+    },
+    "Room": {
+      "1": "{\"name\":\"Rooom1\",\"id\":1}"
+    },
+    "chatUser": {
+      "1": "{\"realm\":\"rakesh\",\"username\":\"ram\",\"password\":\"$2a$10$co8rtSkNTVcYQcFsqoZCNOuOrr0i1nuY1k8fHYu04fGzTVQ5FzGnS\",\"email\":\"ram@gmail.com\",\"emailVerified\":false,\"id\":1}",
+      "2": "{\"realm\":\"test\",\"username\":\"test\",\"password\":\"$2a$10$3VHLw2jU1GFz1xHVf8aQHuYc1Fc2bxhW8e0rVX3E4tTSBuwyVEOcK\",\"email\":\"test@test.com\",\"emailVerified\":false,\"id\":2}",
+      "3": "{\"realm\":\"emtec\",\"username\":\"emtec\",\"password\":\"$2a$10$5DYFI1ovGPQc/5QoDDkMcOu2FEcKjYjQG4lvEL5dFw4eQDMEI56.u\",\"email\":\"emtec@emtec.com\",\"emailVerified\":false,\"id\":3}",
+      "4": "{\"realm\":\"emtec1\",\"username\":\"emtec1\",\"password\":\"$2a$10$lrHFh1XAeQ8WPzXl8eOyQ.8ucvZjiuC9.83m5NXBsXwz1s/vMwfVO\",\"email\":\"emtec1@emtec.com\",\"emailVerified\":false,\"id\":4}"
+    },
+    "chatUserRoom": {},
+    "AccessToken": {
+      "8f4WPgkZR2MpX3NAFMdWB7BcD8JbiMCCOBeIvrnXQf10oxYpLLveJbuyyJjmcDcl": "{\"id\":\"8f4WPgkZR2MpX3NAFMdWB7BcD8JbiMCCOBeIvrnXQf10oxYpLLveJbuyyJjmcDcl\",\"ttl\":1209600,\"created\":\"2017-04-25T07:39:52.512Z\",\"userId\":4}",
+      "gE5M0QBQ3GqThZNBwdTVDotetMIOWbzduKDZUUWsOdCHKORXKHbMrS9OhKoBAxKz": "{\"id\":\"gE5M0QBQ3GqThZNBwdTVDotetMIOWbzduKDZUUWsOdCHKORXKHbMrS9OhKoBAxKz\",\"ttl\":1209600,\"created\":\"2017-04-25T07:58:40.388Z\",\"userId\":1}"
+    }
+  }
+}

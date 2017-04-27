@@ -1,0 +1,48 @@
+<html >
+
+<head>
+    <script src=""></script>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body ng-app="LoopbackSocketIntegration" ng-controller="MainController">
+
+    <div class="order">
+
+
+        <div class="col-md-12">
+            <h1>Welcome to order Real time Registration</h1>
+            <div class="col-md-2">
+                <label for="usr">Order Name:</label>
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" id="order" ng-model="ordercontent">
+            </div>
+            <div class="col-md-4">
+                <button type="button" class="btn btn-default" ng-click="SubmitOrder(ordercontent);">Save</button>
+            </div>
+        </div>
+         
+        <div class="row ">
+            <table class="table ordetable">
+                <tr ng-repeat="singleorder in orders">
+                    <td>{{singleorder.ordercontent}}</td>
+                    
+                    <td>{{singleorder.posted_at}}</td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../node_modules/angular-route/angular-route.js"></script>
+    <script src="../node_modules/angular-resource/angular-resource.js"></script>
+    <script src="../node_modules/underscore/underscore.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</body>
+
+</html>
